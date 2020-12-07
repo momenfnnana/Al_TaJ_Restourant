@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "aL-taj-restourant",
+    "slug": "aL-taj-restourant",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.momenfnnana.aLtajrestourant"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF",
+        "useNextNotificationsApi": true
+      },
+      "package": "com.momenfnnana.aLtajrestourant"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
