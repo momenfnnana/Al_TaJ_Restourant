@@ -5,6 +5,8 @@ import { AuthenticationRoutes } from "../../../components/Navigation";
 import Onboarding from "./Onboarding";
 import Login from "../Login";
 import SignUp from "../SignUp";
+import Home from "../../Home/Home";
+import Parts from "../../Home/Parts";
 // import Welcome, { assets as WelcomeAssets } from "./Welcome";
 // import SignUp from "./SignUp";
 // import ForgotPassword from "./ForgotPassword";
@@ -19,6 +21,8 @@ export const OnboardingNavigator = () => {
       <Stack.Screen name="Onboarding" component={Onboarding} />
       <Stack.Screen name="SignUp" component={SignUp} />
       <Stack.Screen name="Login" component={Login} />
+      <Stack.Screen name="Main" component={Home} />
+      <Stack.Screen name="Parts" component={Parts} />
     </Stack.Navigator>
   );
 };

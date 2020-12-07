@@ -16,7 +16,7 @@ interface HeaderProps {
   dark: boolean;
 }
 
-const Header = ({ left, title, right, dark }: HeaderProps) => {
+const Header = ({ left, title,right, dark }: HeaderProps) => {
   const insets = useSafeAreaInsets();
   const color = dark ? "background" : "secondary";
   const backgroundColor = dark ? "secondary" : "lightGrey";

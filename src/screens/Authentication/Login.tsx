@@ -44,7 +44,7 @@ const Login = (props: LoginProps) => {
           <Button
             label="تسجيل الدخول"
             variant="primary"
-            onPress={() => navigation.navigate("Home")}
+            onPress={() => navigation.navigate("Main")}
             width={width / 1.3}
           />
         </Box>

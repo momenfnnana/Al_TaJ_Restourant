@@ -51,7 +51,11 @@ const Onboarding = () => {
                 }}
               >
                 <Image
-                  style={{ resizeMode: "contain", width: imageWidth }}
+                  style={{
+                    resizeMode: "contain",
+                    width: imageWidth,
+                    height: imageWidth,
+                  }}
                   source={item.image}
                 />
                 <Text

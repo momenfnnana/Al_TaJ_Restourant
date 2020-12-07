@@ -30,10 +30,13 @@ export type AuthenticationRoutes = {
   SignUp: undefined;
   ForgotPassword: undefined;
   PasswordChanged: undefined;
+  Main: undefined;
+  Parts: undefined;
 };
 
 export type HomeRoutes = {
-  HomeMain: undefined;
+  Main: undefined;
+  Parts: undefined;
   FavoriteOutfits: undefined;
   TransactionHistory: undefined;
 };
